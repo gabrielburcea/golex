@@ -1,0 +1,1057 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.1.0",
+  "metadata": {
+    "appmode": "static",
+    "primary_rmd": null,
+    "primary_html": "libs/golem/doc/a_start.html",
+    "content_category": null,
+    "has_parameters": false
+  },
+  "packages": null,
+  "files": {
+    ".Rbuildignore": {
+      "checksum": "aa1dc83149d6adb77901ece95dbc050b"
+    },
+    ".RData": {
+      "checksum": "3b5921dff8a44995c550c96587511984"
+    },
+    ".Rprofile": {
+      "checksum": "eb7582c5b8d8502d3976691175d3f2c8"
+    },
+    "DESCRIPTION": {
+      "checksum": "171e410a37ed3ed8c95415ac8454488b"
+    },
+    "dev/01_start.R": {
+      "checksum": "d3165d6e40ce05723eff0260d5ed2b0e"
+    },
+    "dev/02_dev.R": {
+      "checksum": "5d1c0b788506d4816710ff10ae36488d"
+    },
+    "dev/03_deploy.R": {
+      "checksum": "8f30ae19f5eed7a9a4a401c862b85de5"
+    },
+    "dev/run_dev.R": {
+      "checksum": "e21d8f5db5d57cd4d0f2db6d012a6109"
+    },
+    "inst/app/www/favicon.ico": {
+      "checksum": "81560d1b906a530c87fa0acbb2f5cca4"
+    },
+    "inst/golem-config.yml": {
+      "checksum": "7eb87c4ff5fc34047cfcee0f63d27c17"
+    },
+    "libs/golem/DESCRIPTION": {
+      "checksum": "323b937c3596ecb691bd11f75037921e"
+    },
+    "libs/golem/doc/a_start.html": {
+      "checksum": "7fec486282733f284e9873365a382836"
+    },
+    "libs/golem/doc/a_start.R": {
+      "checksum": "b26f37b3db0bd6d12817d7d0c4058458"
+    },
+    "libs/golem/doc/a_start.Rmd": {
+      "checksum": "fb50c234908fcc8355fd7bd03bcb28bf"
+    },
+    "libs/golem/doc/b_dev.html": {
+      "checksum": "32302c3b99997d4246835dd9354fc657"
+    },
+    "libs/golem/doc/b_dev.R": {
+      "checksum": "b325b6af97ed42dd88000ac4c80bdfe3"
+    },
+    "libs/golem/doc/b_dev.Rmd": {
+      "checksum": "cfd6c4ea833c1ba1b1c007db08271e4e"
+    },
+    "libs/golem/doc/c_deploy.html": {
+      "checksum": "c8e25cf83ab65e1c7895b9a1b3b21ce2"
+    },
+    "libs/golem/doc/c_deploy.R": {
+      "checksum": "f69d70cbc797c18e07f77e22a8f86efb"
+    },
+    "libs/golem/doc/c_deploy.Rmd": {
+      "checksum": "0cd65c60e88f3b08d8333a106f5aced9"
+    },
+    "libs/golem/doc/d_js.html": {
+      "checksum": "ccd1cc7b5c57405e9028def80d26fa2a"
+    },
+    "libs/golem/doc/d_js.R": {
+      "checksum": "b692ec5c33915733ecfb52a19182d9b2"
+    },
+    "libs/golem/doc/d_js.Rmd": {
+      "checksum": "395f8b5b2ba224b1e741c29f181d39d3"
+    },
+    "libs/golem/doc/e_config.html": {
+      "checksum": "a57b8815b160e9a0b13be61683c70f85"
+    },
+    "libs/golem/doc/e_config.R": {
+      "checksum": "8ca8e04261d4e4b2da656a82cb99ba10"
+    },
+    "libs/golem/doc/e_config.Rmd": {
+      "checksum": "e18b8fb47b91932fc40b4445f77b570a"
+    },
+    "libs/golem/doc/f_extending_golem.html": {
+      "checksum": "23a27fa583d2125df45407ec049dcb48"
+    },
+    "libs/golem/doc/f_extending_golem.R": {
+      "checksum": "a18fd4004e0ba2ce42587014bc7bfca5"
+    },
+    "libs/golem/doc/f_extending_golem.Rmd": {
+      "checksum": "9a7d028afb8d5a1fd8482fb759f1e75b"
+    },
+    "libs/golem/doc/index.html": {
+      "checksum": "f9febcefca7c6f5ab3fa78ed140ca60f"
+    },
+    "libs/golem/doc/z_golem_cheatsheet.html": {
+      "checksum": "ccbb95e1aa950c0981ae445b20bfd6a2"
+    },
+    "libs/golem/doc/z_golem_cheatsheet.R": {
+      "checksum": "8c04e7347cb6dd39ef86eea39cbf2045"
+    },
+    "libs/golem/doc/z_golem_cheatsheet.Rmd": {
+      "checksum": "ba420f4b384f72de855c135ad8d3c2d2"
+    },
+    "libs/golem/help/aliases.rds": {
+      "checksum": "4e6bd57749b7d06ed7bdafdbeac6e134"
+    },
+    "libs/golem/help/AnIndex": {
+      "checksum": "318623afa523e706b4919f2440a4a39b"
+    },
+    "libs/golem/help/figures/logo.png": {
+      "checksum": "5e04c9dd8c4a2a1a20628af33a466a20"
+    },
+    "libs/golem/help/golem.rdb": {
+      "checksum": "a7b25e5cd4135c0faa51d9f9c9781502"
+    },
+    "libs/golem/help/golem.rdx": {
+      "checksum": "08032296101fdf5cc5f6320cedc035cd"
+    },
+    "libs/golem/help/paths.rds": {
+      "checksum": "291d8828301a2325eb42325d4c32c8e9"
+    },
+    "libs/golem/html/00Index.html": {
+      "checksum": "1e286e1e9b8249edd53aa815acca1db0"
+    },
+    "libs/golem/html/R.css": {
+      "checksum": "b6763e6916890c631fdc3f2643803b1a"
+    },
+    "libs/golem/img/golemtemplate.png": {
+      "checksum": "d5f41d55f37be1cb0614f30a930bdbde"
+    },
+    "libs/golem/INDEX": {
+      "checksum": "5c64a99420a6949241374de8387eb871"
+    },
+    "libs/golem/LICENSE": {
+      "checksum": "05b244661505b5129abd2d115a783f4c"
+    },
+    "libs/golem/mantests/build.R": {
+      "checksum": "21bb160b1b6e05ad9ce5667b2df96435"
+    },
+    "libs/golem/Meta/features.rds": {
+      "checksum": "d3a16df0a7280c65dbcca2baec44a3c2"
+    },
+    "libs/golem/Meta/hsearch.rds": {
+      "checksum": "e5c8d038877da8a694a50aeb6319e686"
+    },
+    "libs/golem/Meta/links.rds": {
+      "checksum": "9a8b8d3310ff16cd7d297c1a924fa110"
+    },
+    "libs/golem/Meta/nsInfo.rds": {
+      "checksum": "a26ef4978aea5436d6d5431ac58e94f3"
+    },
+    "libs/golem/Meta/package.rds": {
+      "checksum": "32c4c8da2b92cb5e7d3f6ca78aebf7a9"
+    },
+    "libs/golem/Meta/Rd.rds": {
+      "checksum": "2b05fed98bce2544e44ba6edf6abf405"
+    },
+    "libs/golem/Meta/vignette.rds": {
+      "checksum": "8c369a85c585ce3caaffa89fb1f48999"
+    },
+    "libs/golem/NAMESPACE": {
+      "checksum": "f0063419f53c513d9a7475edc7bc4b23"
+    },
+    "libs/golem/NEWS.md": {
+      "checksum": "e3cb8caf81d46fabd5d555c77beaa961"
+    },
+    "libs/golem/R/golem": {
+      "checksum": "d6c68f1fe41ced6e98a766a3757313da"
+    },
+    "libs/golem/R/golem.rdb": {
+      "checksum": "f175356e6c2e8f94ef34c6bf6dc98d11"
+    },
+    "libs/golem/R/golem.rdx": {
+      "checksum": "4d7cfc7a926f0d70bc967d8604d6b0c7"
+    },
+    "libs/golem/rstudio/addins.dcf": {
+      "checksum": "c30ba1e2c305ca853a745f8990248b77"
+    },
+    "libs/golem/rstudio/templates/project/create_golem.dcf": {
+      "checksum": "65d98d09982ac80353966055de5ea753"
+    },
+    "libs/golem/rstudio/templates/project/golem.png": {
+      "checksum": "5e04c9dd8c4a2a1a20628af33a466a20"
+    },
+    "libs/golem/rstudio/templates/project/shiny.png": {
+      "checksum": "d48f808f4f53f304ebdf2f15aa12228d"
+    },
+    "libs/golem/shinyexample/DESCRIPTION": {
+      "checksum": "97ed8261408ca44bf91cd2677f19b4fc"
+    },
+    "libs/golem/shinyexample/dev/01_start.R": {
+      "checksum": "8aab9dd4fb448c49f0a02ebde617fa56"
+    },
+    "libs/golem/shinyexample/dev/02_dev.R": {
+      "checksum": "bd1357800c4b0ae7a347b2a61e3b8bf2"
+    },
+    "libs/golem/shinyexample/dev/03_deploy.R": {
+      "checksum": "8f30ae19f5eed7a9a4a401c862b85de5"
+    },
+    "libs/golem/shinyexample/dev/run_dev.R": {
+      "checksum": "e21d8f5db5d57cd4d0f2db6d012a6109"
+    },
+    "libs/golem/shinyexample/inst/app/www/favicon.ico": {
+      "checksum": "81560d1b906a530c87fa0acbb2f5cca4"
+    },
+    "libs/golem/shinyexample/inst/golem-config.yml": {
+      "checksum": "f7cae16072eadba557bc6ea10f636c0a"
+    },
+    "libs/golem/shinyexample/man/run_app.Rd": {
+      "checksum": "53ff7d14121fca02ad0a583c05e5def7"
+    },
+    "libs/golem/shinyexample/NAMESPACE": {
+      "checksum": "5aa41ebd076bf06b187a48eb57b846a5"
+    },
+    "libs/golem/shinyexample/R/app_config.R": {
+      "checksum": "2b7599a6fbce3c0e7626aacea9b4707b"
+    },
+    "libs/golem/shinyexample/R/app_server.R": {
+      "checksum": "0faf7724c528dab8b904407fba80c86f"
+    },
+    "libs/golem/shinyexample/R/app_ui.R": {
+      "checksum": "72d26390ac7544f0875931606b5205ff"
+    },
+    "libs/golem/shinyexample/R/run_app.R": {
+      "checksum": "476011bbc4ffefa824e5bfb8386d849b"
+    },
+    "libs/golem/shinyexample/REMOVEME.Rbuildignore": {
+      "checksum": "b60b4112be74780ec5557c1f75c03607"
+    },
+    "libs/golem/utils/golem_utils_server.R": {
+      "checksum": "c2998ee5dbb57c9af79904bc79133f74"
+    },
+    "libs/golem/utils/golem_utils_ui.R": {
+      "checksum": "33321781a1c428ecde176940589b17e2"
+    },
+    "libs/golem/utils/golem-js.js": {
+      "checksum": "2e7eb5390cca491571eb9e6569cd6ef4"
+    },
+    "libs/golem/utils/sparkle.js": {
+      "checksum": "3df20e497dff897a569d6c047861cf07"
+    },
+    "libs/golem/utils/test-golem_utils_server.R": {
+      "checksum": "3ed6ce54be2b28b9455f84914c16012a"
+    },
+    "libs/golem/utils/test-golem_utils_ui.R": {
+      "checksum": "2ef87c1229b3c6053ff45e236349c70f"
+    },
+    "libs/golem/utils/test-golem-recommended.R": {
+      "checksum": "c89992deaa66486f522f61f29d7ee6c0"
+    },
+    "libs/golem/WORDLIST": {
+      "checksum": "c79c96834d6519873a817cd35fc270c7"
+    },
+    "libs/shiny/app_template/app.R": {
+      "checksum": "6f6e55d3dba6a923f2580bc6f4893968"
+    },
+    "libs/shiny/app_template/R/example-module.R": {
+      "checksum": "d996b45f5523a08e2174122fb3659d70"
+    },
+    "libs/shiny/app_template/R/example.R": {
+      "checksum": "2a0cd9ce4ffa59512d7332fea9c0d84e"
+    },
+    "libs/shiny/app_template/tests/shinytest.R": {
+      "checksum": "48a5d87647404bbf1f3098c7147cc8af"
+    },
+    "libs/shiny/app_template/tests/shinytest/mytest.R": {
+      "checksum": "1437e042fc21dab4d29add3d6ff347c4"
+    },
+    "libs/shiny/app_template/tests/testthat.R": {
+      "checksum": "ad6e451094e39d352ccd7b0b971b451e"
+    },
+    "libs/shiny/app_template/tests/testthat/test-examplemodule.R": {
+      "checksum": "f138eb59b0f59a0ed933566cfded0ea1"
+    },
+    "libs/shiny/app_template/tests/testthat/test-server.R": {
+      "checksum": "bc582c30f5cd48915d0e66ffc4513645"
+    },
+    "libs/shiny/app_template/tests/testthat/test-sort.R": {
+      "checksum": "d4c31d0f12fb21a66ea523774868522c"
+    },
+    "libs/shiny/DESCRIPTION": {
+      "checksum": "41f42c783252616e1f59b55c6ca48c21"
+    },
+    "libs/shiny/examples/01_hello/app.R": {
+      "checksum": "4f58327ec6b8b3da90e3726d49f49499"
+    },
+    "libs/shiny/examples/01_hello/DESCRIPTION": {
+      "checksum": "13f970fb92cec9836ea297717872f46e"
+    },
+    "libs/shiny/examples/01_hello/Readme.md": {
+      "checksum": "d7749eb95c7a7784dadd9af85f6676e4"
+    },
+    "libs/shiny/examples/02_text/app.R": {
+      "checksum": "509459a761291c7d0fe07f493ce6debc"
+    },
+    "libs/shiny/examples/02_text/DESCRIPTION": {
+      "checksum": "d3b1c0d771db155d345b79c6ccf1f9c8"
+    },
+    "libs/shiny/examples/02_text/Readme.md": {
+      "checksum": "446a33445b2da61fdefc01555724e0a2"
+    },
+    "libs/shiny/examples/03_reactivity/app.R": {
+      "checksum": "eda57578dce4da768883fc33a6ae31ec"
+    },
+    "libs/shiny/examples/03_reactivity/DESCRIPTION": {
+      "checksum": "33dfe9004b36e210472b5ce87154d801"
+    },
+    "libs/shiny/examples/03_reactivity/Readme.md": {
+      "checksum": "1406350bae213d4cd2f077e67f7eec9e"
+    },
+    "libs/shiny/examples/04_mpg/app.R": {
+      "checksum": "44b6a6dbaf651eaef873186b9e17ce9f"
+    },
+    "libs/shiny/examples/04_mpg/DESCRIPTION": {
+      "checksum": "00a88b6c31a74461d091e7c924e02710"
+    },
+    "libs/shiny/examples/04_mpg/Readme.md": {
+      "checksum": "87b16935976bb74159902b12cc767d13"
+    },
+    "libs/shiny/examples/05_sliders/app.R": {
+      "checksum": "108f7f23834d1e86d6bf514e0e3f4321"
+    },
+    "libs/shiny/examples/05_sliders/DESCRIPTION": {
+      "checksum": "2c88b0033217c3596d5a9cd42888ee4f"
+    },
+    "libs/shiny/examples/05_sliders/Readme.md": {
+      "checksum": "9dea4065b5cef11b0a761952539d8893"
+    },
+    "libs/shiny/examples/06_tabsets/app.R": {
+      "checksum": "1cb1cad04912eba89c246a7ef446b12e"
+    },
+    "libs/shiny/examples/06_tabsets/DESCRIPTION": {
+      "checksum": "f601f0341132edd28266937c9f9fcd8f"
+    },
+    "libs/shiny/examples/06_tabsets/Readme.md": {
+      "checksum": "5e5cc1ec5d9c560e526a73d48327aa47"
+    },
+    "libs/shiny/examples/07_widgets/app.R": {
+      "checksum": "74e5356ed7b82c9ec3367edf77015461"
+    },
+    "libs/shiny/examples/07_widgets/DESCRIPTION": {
+      "checksum": "448d49f3c1fd4f84bf6affd027605023"
+    },
+    "libs/shiny/examples/07_widgets/Readme.md": {
+      "checksum": "75a55e4fdd6696b324a3b62107abaa75"
+    },
+    "libs/shiny/examples/08_html/app.R": {
+      "checksum": "734716e20623fe72bd654b2c79aff5e1"
+    },
+    "libs/shiny/examples/08_html/DESCRIPTION": {
+      "checksum": "fc57e0cc1f1689531e8b6d2b308530a6"
+    },
+    "libs/shiny/examples/08_html/Readme.md": {
+      "checksum": "1a43e395464bfa0650827d8e232200f8"
+    },
+    "libs/shiny/examples/08_html/www/index.html": {
+      "checksum": "6400328ef184a61a10971236aef84cd4"
+    },
+    "libs/shiny/examples/09_upload/app.R": {
+      "checksum": "2bd701ca78133711167e78dff33dc819"
+    },
+    "libs/shiny/examples/09_upload/DESCRIPTION": {
+      "checksum": "12d0f805ce58a70a7f69505c53617108"
+    },
+    "libs/shiny/examples/09_upload/Readme.md": {
+      "checksum": "d7099c3e2c81ebc0c1b9206cad33a0ef"
+    },
+    "libs/shiny/examples/10_download/app.R": {
+      "checksum": "9dde4cde08116cbf65a05da150fd8170"
+    },
+    "libs/shiny/examples/10_download/DESCRIPTION": {
+      "checksum": "6e681f3bb2f604aa20ee1b0a32ccaf55"
+    },
+    "libs/shiny/examples/10_download/Readme.md": {
+      "checksum": "3bb23d0bb24bc5a676cc233639fa39ef"
+    },
+    "libs/shiny/examples/11_timer/app.R": {
+      "checksum": "2d20df93b6d6400ea0c53b4722dbc811"
+    },
+    "libs/shiny/examples/11_timer/DESCRIPTION": {
+      "checksum": "c481010dc652e7a3ab80140f461c0ef2"
+    },
+    "libs/shiny/examples/11_timer/Readme.md": {
+      "checksum": "f1b063aae380d9463f3739dd60c3e666"
+    },
+    "libs/shiny/help/aliases.rds": {
+      "checksum": "374876ec07d60029d246c10e914e6f87"
+    },
+    "libs/shiny/help/AnIndex": {
+      "checksum": "43612b8f845fc73e3b47c54f0b143691"
+    },
+    "libs/shiny/help/figures/lifecycle-archived.svg": {
+      "checksum": "cb1e46f469cfbbbde29c8b5113e1d789"
+    },
+    "libs/shiny/help/figures/lifecycle-defunct.svg": {
+      "checksum": "c0d2e5a54f1fa4ff02bf9533079dd1f7"
+    },
+    "libs/shiny/help/figures/lifecycle-deprecated.svg": {
+      "checksum": "a1b8c987c676c16af790f563f96cbb1f"
+    },
+    "libs/shiny/help/figures/lifecycle-experimental.svg": {
+      "checksum": "c3978703d8f40f2679795335715e98f4"
+    },
+    "libs/shiny/help/figures/lifecycle-maturing.svg": {
+      "checksum": "952b59dc07b171b97d5d982924244f61"
+    },
+    "libs/shiny/help/figures/lifecycle-questioning.svg": {
+      "checksum": "27b879bf3677ea76e3991d56ab324081"
+    },
+    "libs/shiny/help/figures/lifecycle-soft-deprecated.svg": {
+      "checksum": "6902bbfaf963fbc4ed98b86bda80caa2"
+    },
+    "libs/shiny/help/figures/lifecycle-stable.svg": {
+      "checksum": "53b3f893324260b737b3c46ed2a0e643"
+    },
+    "libs/shiny/help/figures/lifecycle-superseded.svg": {
+      "checksum": "1c1fe7a759b86dc6dbcbe7797ab8246c"
+    },
+    "libs/shiny/help/figures/logo.png": {
+      "checksum": "0d280bc8cf9aadaa632e343dcea036b4"
+    },
+    "libs/shiny/help/paths.rds": {
+      "checksum": "380155d085594302bdce545fdef6e612"
+    },
+    "libs/shiny/help/shiny.rdb": {
+      "checksum": "25f88e7279e4d19e53784eb1ffc7b61d"
+    },
+    "libs/shiny/help/shiny.rdx": {
+      "checksum": "c96b77ebcbcedd9608264cc95556cae5"
+    },
+    "libs/shiny/html/00Index.html": {
+      "checksum": "ccab6733ae557deb47f173608157501d"
+    },
+    "libs/shiny/html/R.css": {
+      "checksum": "b6763e6916890c631fdc3f2643803b1a"
+    },
+    "libs/shiny/INDEX": {
+      "checksum": "8c6d2af4b07404cc5040068e04e02f4f"
+    },
+    "libs/shiny/LICENSE": {
+      "checksum": "94d6517cbdbb081f88684d6d71241501"
+    },
+    "libs/shiny/Meta/features.rds": {
+      "checksum": "d3a16df0a7280c65dbcca2baec44a3c2"
+    },
+    "libs/shiny/Meta/hsearch.rds": {
+      "checksum": "1314a1b941fcdbfe8438bc7ea27bbec6"
+    },
+    "libs/shiny/Meta/links.rds": {
+      "checksum": "5fbc5ba236076aedc5c76a4cf70e33ef"
+    },
+    "libs/shiny/Meta/nsInfo.rds": {
+      "checksum": "ed45c1282ebd1e1aafdb2470da14bec2"
+    },
+    "libs/shiny/Meta/package.rds": {
+      "checksum": "ae7cc34fc4529422f93bf4fc971b450c"
+    },
+    "libs/shiny/Meta/Rd.rds": {
+      "checksum": "db416207fe2a0d872c45ebf729c48321"
+    },
+    "libs/shiny/NAMESPACE": {
+      "checksum": "f59cfb5c306b39cba2fb0c484fe8cccd"
+    },
+    "libs/shiny/NEWS.md": {
+      "checksum": "2f58647c589e9a59ef12ee7e10a6567c"
+    },
+    "libs/shiny/R/shiny": {
+      "checksum": "d6c68f1fe41ced6e98a766a3757313da"
+    },
+    "libs/shiny/R/shiny.rdb": {
+      "checksum": "f4a1c57a83932e9445471f0c36d1f7c3"
+    },
+    "libs/shiny/R/shiny.rdx": {
+      "checksum": "8525433970692ebc0d157161b147b9da"
+    },
+    "libs/shiny/template/default.html": {
+      "checksum": "493d51d3ded18261eacd9acbb22ec0f1"
+    },
+    "libs/shiny/template/error.html": {
+      "checksum": "fae56a71104a0c10b147c0d6808bde75"
+    },
+    "libs/shiny/www-dir/index.html": {
+      "checksum": "c6e3068736b084cd7d78d38452ced423"
+    },
+    "libs/shiny/www/shared/bootstrap/accessibility/css/bootstrap-accessibility.min.css": {
+      "checksum": "57b544398fffeb9f4eb942f2ce7c6e09"
+    },
+    "libs/shiny/www/shared/bootstrap/accessibility/js/bootstrap-accessibility.min.js": {
+      "checksum": "1aec2dfe01870129a59ec5979b7e6691"
+    },
+    "libs/shiny/www/shared/bootstrap/css/bootstrap-theme.css": {
+      "checksum": "da9549a015c0159974cc4b8ab053df1f"
+    },
+    "libs/shiny/www/shared/bootstrap/css/bootstrap-theme.css.map": {
+      "checksum": "829aff37a8e1c143a81e0e02ded9ce8c"
+    },
+    "libs/shiny/www/shared/bootstrap/css/bootstrap-theme.min.css": {
+      "checksum": "2010fa9fb07541adc78a1ec0a8a4fbbf"
+    },
+    "libs/shiny/www/shared/bootstrap/css/bootstrap-theme.min.css.map": {
+      "checksum": "51806092cc05e7bc9346ad6fc7c04026"
+    },
+    "libs/shiny/www/shared/bootstrap/css/bootstrap.css": {
+      "checksum": "2dbb985a5bb6dd8ef0a7b21d290ea9ae"
+    },
+    "libs/shiny/www/shared/bootstrap/css/bootstrap.css.map": {
+      "checksum": "ba33e6ee183995913c20e5c46ad62d6c"
+    },
+    "libs/shiny/www/shared/bootstrap/css/bootstrap.min.css": {
+      "checksum": "7f89537eaf606bff49f5cc1a7c24dbca"
+    },
+    "libs/shiny/www/shared/bootstrap/css/bootstrap.min.css.map": {
+      "checksum": "cafbda9c0e9efee534aa054eb53510f3"
+    },
+    "libs/shiny/www/shared/bootstrap/fonts/glyphicons-halflings-regular.eot": {
+      "checksum": "f4769f9bdb7466be65088239c12046d1"
+    },
+    "libs/shiny/www/shared/bootstrap/fonts/glyphicons-halflings-regular.svg": {
+      "checksum": "89889688147bd7575d6327160d64e760"
+    },
+    "libs/shiny/www/shared/bootstrap/fonts/glyphicons-halflings-regular.ttf": {
+      "checksum": "e18bbf611f2a2e43afc071aa2f4e1512"
+    },
+    "libs/shiny/www/shared/bootstrap/fonts/glyphicons-halflings-regular.woff": {
+      "checksum": "fa2772327f55d8198301fdb8bcfc8158"
+    },
+    "libs/shiny/www/shared/bootstrap/fonts/glyphicons-halflings-regular.woff2": {
+      "checksum": "448c34a56d699c29117adc64c43affeb"
+    },
+    "libs/shiny/www/shared/bootstrap/js/bootstrap.js": {
+      "checksum": "894d79839facf38d9fd672bdbe57443d"
+    },
+    "libs/shiny/www/shared/bootstrap/js/bootstrap.min.js": {
+      "checksum": "2f34b630ffe30ba2ff2b91e3f3c322a1"
+    },
+    "libs/shiny/www/shared/bootstrap/js/npm.js": {
+      "checksum": "ccb7f3909e30b1eb8f65a24393c6e12b"
+    },
+    "libs/shiny/www/shared/datatables/css/dataTables.bootstrap.css": {
+      "checksum": "300bc3f7d1658607fd9cb0efe65b3f67"
+    },
+    "libs/shiny/www/shared/datatables/css/dataTables.extra.css": {
+      "checksum": "2fd3844322d61df50aba34bae0547762"
+    },
+    "libs/shiny/www/shared/datatables/images/sort_asc_disabled.png": {
+      "checksum": "64f2d23d70cb2b2810031880f554b13c"
+    },
+    "libs/shiny/www/shared/datatables/images/sort_asc.png": {
+      "checksum": "6c56b94fd0540844a7118cdff565b0ae"
+    },
+    "libs/shiny/www/shared/datatables/images/sort_both.png": {
+      "checksum": "94b34ff5224ba38210d67623bb1a1504"
+    },
+    "libs/shiny/www/shared/datatables/images/sort_desc_disabled.png": {
+      "checksum": "d48475e6c742940f44e62622e16865b9"
+    },
+    "libs/shiny/www/shared/datatables/images/sort_desc.png": {
+      "checksum": "8f88d990024975797f96ce7648dacd2f"
+    },
+    "libs/shiny/www/shared/datatables/js/dataTables.bootstrap.js": {
+      "checksum": "0c6d0e1cc7dcf20f21a7de557eff096a"
+    },
+    "libs/shiny/www/shared/datatables/js/jquery.dataTables.min.js": {
+      "checksum": "1008c5821adb81361143e958a81c3def"
+    },
+    "libs/shiny/www/shared/datatables/upgrade1.10.txt": {
+      "checksum": "bd39f6bbd365592c78cbd0be915143b5"
+    },
+    "libs/shiny/www/shared/datepicker/css/bootstrap-datepicker3.css": {
+      "checksum": "31cad8dfb17fa89f08e259364bf7d2fb"
+    },
+    "libs/shiny/www/shared/datepicker/css/bootstrap-datepicker3.min.css": {
+      "checksum": "008ea2a443a98505e7cd25577ae84ba3"
+    },
+    "libs/shiny/www/shared/datepicker/js/bootstrap-datepicker.js": {
+      "checksum": "9a9ce54375ef84c9c66f621ebf1d6b14"
+    },
+    "libs/shiny/www/shared/datepicker/js/bootstrap-datepicker.min.js": {
+      "checksum": "3a16c58e1a823a60264f38ed4a8f4c07"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker-en-CA.min.js": {
+      "checksum": "eba49404ebf2ea3b41c25bf5a9d4f7b8"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ar-tn.min.js": {
+      "checksum": "2bea314100d3674a9b557b8625a2450d"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ar.min.js": {
+      "checksum": "35d26b024f96e3fb2af435c7c0f31190"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.az.min.js": {
+      "checksum": "f3c321fc8bef6afa1e39c7f555117df4"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.bg.min.js": {
+      "checksum": "54d489f29cbff19d419a47d9373d4528"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.bm.min.js": {
+      "checksum": "2d765e95e50db279cf15a6777dc2739b"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.bn.min.js": {
+      "checksum": "bbf4c0c03eb58a7c10ee06ead331e804"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.br.min.js": {
+      "checksum": "ae329b04e20041d0788098622b95f883"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.bs.min.js": {
+      "checksum": "09824a399a5a7a07c41c3bfccb767b66"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ca.min.js": {
+      "checksum": "140d8ef13cbaa5915be82edca7b2e9ea"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.cs.min.js": {
+      "checksum": "b169b58eecfe6eddc58b9e1e71623900"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.cy.min.js": {
+      "checksum": "4c19733f05237657eadc42cead63607c"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.da.min.js": {
+      "checksum": "26f1ab2399b428c1571b9258d7ba10af"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.de.min.js": {
+      "checksum": "e379a61bac6fb9cb1432ae048c00a2d4"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.el.min.js": {
+      "checksum": "9a8c3f87f7e656bae9d7f4f495d34ad0"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.en-AU.min.js": {
+      "checksum": "c547ee603fe716b417fa3318703e1775"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.en-CA.min.js": {
+      "checksum": "4ce18639d9d766ba3b59a50846f9f25d"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.en-GB.min.js": {
+      "checksum": "0aff1a27d7e87aa4d7162b0928415adc"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.en-IE.min.js": {
+      "checksum": "cb0016f495e253311ecf0b1d5eba947c"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.en-NZ.min.js": {
+      "checksum": "a839da1a16fc096575a3c260312b5084"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.en-ZA.min.js": {
+      "checksum": "a70c3fda5bb29693be856ecdda555114"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.eo.min.js": {
+      "checksum": "f278d2b5d00aeeaad81ae6a30561dfb3"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.es.min.js": {
+      "checksum": "0c240809f25d1bf69a78e589d81b15fd"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.et.min.js": {
+      "checksum": "bdc157716069be8880b19d5e1663d131"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.eu.min.js": {
+      "checksum": "4c489d6d3700d37317b3920c21d0b902"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.fa.min.js": {
+      "checksum": "f9dca456507865d74367df2ec21442d2"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.fi.min.js": {
+      "checksum": "3b2ea6b77ec81a3b049ad67fbd61da65"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.fo.min.js": {
+      "checksum": "542de91da4d0304fdd2f85dd25c259fa"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.fr-CH.min.js": {
+      "checksum": "8e16f409b6c4cd9f89dc39e328f0a804"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.fr.min.js": {
+      "checksum": "d69412ba9c9add964acbd11f0c7ab3d4"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.gl.min.js": {
+      "checksum": "570781c190a59487dd5fdf037df3f46c"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.he.min.js": {
+      "checksum": "7e36ca89762611a0fac1d8d3d03b4235"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.hi.min.js": {
+      "checksum": "ba69cedbe8a0a125d2b6f740d4b76ea4"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.hr.min.js": {
+      "checksum": "5eeab995783abb983baa504e9ad38d4b"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.hu.min.js": {
+      "checksum": "2fca7eb28145674f456a59186c8acd4e"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.hy.min.js": {
+      "checksum": "b5440d5f5a81ef32491ebcc5cb55fd7f"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.id.min.js": {
+      "checksum": "77beed0d1402226bdaec79a8423c6bef"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.is.min.js": {
+      "checksum": "8d2b24a898aa0a026f38e41ea25295e9"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.it-CH.min.js": {
+      "checksum": "29a2e65ee680766d46522fd5b885f1c1"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.it.min.js": {
+      "checksum": "7440f71697670ae6215d6f1f68bf6eac"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ja.min.js": {
+      "checksum": "458a858a3d60a0a11bdaa1da796c0d95"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ka.min.js": {
+      "checksum": "37a3e6e52bf66d25cf4e9e89f7f4e871"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.kh.min.js": {
+      "checksum": "077a53866792efc5695444367a84361f"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.kk.min.js": {
+      "checksum": "66e7ca803db3b023413cb3a2257c2ed9"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.km.min.js": {
+      "checksum": "7c0df88ad34b97c7f36e443a0b90c5f8"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ko.min.js": {
+      "checksum": "4cd53b7aaff6c01d5476db7ef36b15b7"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.kr.min.js": {
+      "checksum": "718a6d8dd81e5da1dae6604ebcbe0522"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.lt.min.js": {
+      "checksum": "1d075794044f3c1f8097b7411cb160ea"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.lv.min.js": {
+      "checksum": "1dbcca32ef06520b097840bb6b9b92f0"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.me.min.js": {
+      "checksum": "ee094dcc6b080440ae648f0b5f551fd7"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.mk.min.js": {
+      "checksum": "8ad641a1b0df58643675e914757222d6"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.mn.min.js": {
+      "checksum": "9053a24b169a02078f62c87db61929e0"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ms.min.js": {
+      "checksum": "558e364314f7a6f1e8ff552af45289a0"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.nl-BE.min.js": {
+      "checksum": "d102d2544ac0c83ae7becd89db845a3e"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.nl.min.js": {
+      "checksum": "7ea61899ebdc63516fa9390c2960422c"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.no.min.js": {
+      "checksum": "f13ed64193cddfcc91fb1bf03031fb2b"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.oc.min.js": {
+      "checksum": "214011c7d27e91e001d0c63f1b7996ae"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.pl.min.js": {
+      "checksum": "d86e47d8179cac3893278792d4c26656"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.pt-BR.min.js": {
+      "checksum": "d89e56a0947bc625e6d0afa7336388bc"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.pt.min.js": {
+      "checksum": "5fac70c505674c265acd14fe205fc28c"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ro.min.js": {
+      "checksum": "813c5dc3bc2bda1d87db67e18197d98d"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.rs-latin.min.js": {
+      "checksum": "ba42c4ad14902adab3d31bcd03ecc673"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.rs.min.js": {
+      "checksum": "4afbe94f5ee9330f344f3545a03b86f9"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ru.min.js": {
+      "checksum": "7a5e3e4b7858a5257f8ac1cf2e96f289"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.si.min.js": {
+      "checksum": "7c99487b7631a864806e25445cdd20d6"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.sk.min.js": {
+      "checksum": "ed7d6fc7c720724a01cf06b4c9987b23"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.sl.min.js": {
+      "checksum": "9ad7e4da8b45758ba69fc66e8ee95468"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.sq.min.js": {
+      "checksum": "c9218d5631c5d9e59a08d6270c935b66"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.sr-latin.min.js": {
+      "checksum": "a00919b4647f5082db5030577152c94a"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.sr.min.js": {
+      "checksum": "b8db81ddacac2fe29227b2f3b104feda"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.sv.min.js": {
+      "checksum": "84e65d13c3baad3e30610dda0b56c473"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.sw.min.js": {
+      "checksum": "660f1add7129dd1e357d349e51e9ba3b"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ta.min.js": {
+      "checksum": "d6fc4f482520c0cb97810e6800467bf0"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.tg.min.js": {
+      "checksum": "b4654c5ff909a73226871454fe7526b5"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.th.min.js": {
+      "checksum": "6ecf92ecfc65cd7cb1ba60a32aa950c9"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.tk.min.js": {
+      "checksum": "cc48888358000ba94de3de52924f8731"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.tr.min.js": {
+      "checksum": "96d8b009eebbd4a96fd3c99977dc9ecb"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.uk.min.js": {
+      "checksum": "ff0781daf30ebf3a9bff3e2c29e3bc36"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.uz-cyrl.min.js": {
+      "checksum": "eba824338af141ec1d2b628ff175bb09"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.uz-latn.min.js": {
+      "checksum": "3da1b2affbcc5176cde1d5a9e6fce6ca"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.vi.min.js": {
+      "checksum": "8be76c0d0e10acd89d19249e5830d072"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.zh-CN.min.js": {
+      "checksum": "9ae74b4da2b7b52bee158bf5892ee948"
+    },
+    "libs/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.zh-TW.min.js": {
+      "checksum": "7c30c64ca6cebaa76e783c22988f39bc"
+    },
+    "libs/shiny/www/shared/datepicker/scss/build3.scss": {
+      "checksum": "f542712dfad82263d19677e158ca24b1"
+    },
+    "libs/shiny/www/shared/datepicker/scss/datepicker3.scss": {
+      "checksum": "f116120ad5ae4d927340df90f1421ed0"
+    },
+    "libs/shiny/www/shared/highlight/classref.txt": {
+      "checksum": "e095ae120d1b8a9c12d0ebf7e7fa967b"
+    },
+    "libs/shiny/www/shared/highlight/highlight.pack.js": {
+      "checksum": "0b5415083b347c7d5f98b47bcf7e758a"
+    },
+    "libs/shiny/www/shared/highlight/LICENSE": {
+      "checksum": "ec39d75cbc4de8171c2f6656a26816a3"
+    },
+    "libs/shiny/www/shared/highlight/rstudio.css": {
+      "checksum": "097a443771d9f9e78d203331be166d3e"
+    },
+    "libs/shiny/www/shared/ionrangeslider/css/ion.rangeSlider.css": {
+      "checksum": "e798d49d7823034fd1d422b5616b4d0d"
+    },
+    "libs/shiny/www/shared/ionrangeslider/js/ion.rangeSlider.js": {
+      "checksum": "359b69b1ad7bdacf3bdf799a5f3ed313"
+    },
+    "libs/shiny/www/shared/ionrangeslider/js/ion.rangeSlider.min.js": {
+      "checksum": "3b75c19d675ba12fb233fd6d40b687c4"
+    },
+    "libs/shiny/www/shared/ionrangeslider/scss/_base.scss": {
+      "checksum": "f9249bd7b4c239acea1035bc2159055e"
+    },
+    "libs/shiny/www/shared/ionrangeslider/scss/_mixins.scss": {
+      "checksum": "fe9a9ec562ae6f0658c0fa3ae1b046c1"
+    },
+    "libs/shiny/www/shared/ionrangeslider/scss/shiny.scss": {
+      "checksum": "691546d7efcfe5c8457a932349a5b23e"
+    },
+    "libs/shiny/www/shared/jquery-AUTHORS.txt": {
+      "checksum": "dd27520eef04b799446eee1483b8ecc5"
+    },
+    "libs/shiny/www/shared/jquery.js": {
+      "checksum": "2849239b95f5a9a2aea3f6ed9420bb88"
+    },
+    "libs/shiny/www/shared/jquery.min.js": {
+      "checksum": "8fb8fee4fcc3cc86ff6c724154c49c42"
+    },
+    "libs/shiny/www/shared/jquery.min.map": {
+      "checksum": "6efc5d663aaacac2024153fa0d4bafcd"
+    },
+    "libs/shiny/www/shared/jqueryui/AUTHORS.txt": {
+      "checksum": "403511fc6c430ea6179ebcb4a9983eec"
+    },
+    "libs/shiny/www/shared/jqueryui/images/ui-icons_444444_256x240.png": {
+      "checksum": "d10bc07005bb2d604f4905183690ac04"
+    },
+    "libs/shiny/www/shared/jqueryui/images/ui-icons_555555_256x240.png": {
+      "checksum": "00dd0ec0a16a1085e714c7906ff8fb06"
+    },
+    "libs/shiny/www/shared/jqueryui/images/ui-icons_777620_256x240.png": {
+      "checksum": "4e7e3e142f3939883cd0a7e00cabdaef"
+    },
+    "libs/shiny/www/shared/jqueryui/images/ui-icons_777777_256x240.png": {
+      "checksum": "40bf25799e4fec8079c7775083de09df"
+    },
+    "libs/shiny/www/shared/jqueryui/images/ui-icons_cc0000_256x240.png": {
+      "checksum": "093a819138276b446611d1d2a45b98a2"
+    },
+    "libs/shiny/www/shared/jqueryui/images/ui-icons_ffffff_256x240.png": {
+      "checksum": "ea4ebe072be75fbbea002631916836de"
+    },
+    "libs/shiny/www/shared/jqueryui/index.html": {
+      "checksum": "11f31c348968868d4ada89d6162c640e"
+    },
+    "libs/shiny/www/shared/jqueryui/jquery-ui.css": {
+      "checksum": "6fd5a6e8197041971d02cf62d06f4b14"
+    },
+    "libs/shiny/www/shared/jqueryui/jquery-ui.js": {
+      "checksum": "ab5284de5e3d221e53647fd348e5644b"
+    },
+    "libs/shiny/www/shared/jqueryui/jquery-ui.min.css": {
+      "checksum": "0b5729a931d113be34b6fac13bcf5b29"
+    },
+    "libs/shiny/www/shared/jqueryui/jquery-ui.min.js": {
+      "checksum": "c15b1008dec3c8967ea657a7bb4baaec"
+    },
+    "libs/shiny/www/shared/jqueryui/jquery-ui.structure.css": {
+      "checksum": "b75d9919ded1b610c51a4727dd4b9720"
+    },
+    "libs/shiny/www/shared/jqueryui/jquery-ui.structure.min.css": {
+      "checksum": "5581d20aa5062ed5c0b6048f68e76055"
+    },
+    "libs/shiny/www/shared/jqueryui/jquery-ui.theme.css": {
+      "checksum": "c4679db4adb3f9b8089213c6c396e2ee"
+    },
+    "libs/shiny/www/shared/jqueryui/jquery-ui.theme.min.css": {
+      "checksum": "c12cac44216cf877fd0c6903f3794407"
+    },
+    "libs/shiny/www/shared/jqueryui/LICENSE.txt": {
+      "checksum": "e0c0d3d883e83f19efa64feb54d5f63d"
+    },
+    "libs/shiny/www/shared/jqueryui/README": {
+      "checksum": "b5bc162f6c9d6f95688604465a526fd6"
+    },
+    "libs/shiny/www/shared/legacy/jquery-AUTHORS.txt": {
+      "checksum": "f3b07ee7912d1f78c0535a919e4f192c"
+    },
+    "libs/shiny/www/shared/legacy/jquery.js": {
+      "checksum": "fb2d334dabf4902825df4fe6c2298b4b"
+    },
+    "libs/shiny/www/shared/legacy/jquery.min.js": {
+      "checksum": "4f252523d4af0b478c810c2547a63e19"
+    },
+    "libs/shiny/www/shared/legacy/jquery.min.map": {
+      "checksum": "b40722fa1b5fa066562beab1c8c0e0b3"
+    },
+    "libs/shiny/www/shared/selectize/accessibility/js/selectize-plugin-a11y.js": {
+      "checksum": "1ec0a83de5026293f9e73846caee2a7e"
+    },
+    "libs/shiny/www/shared/selectize/accessibility/js/selectize-plugin-a11y.min.js": {
+      "checksum": "5941d043c91362921f2f274de60f7136"
+    },
+    "libs/shiny/www/shared/selectize/css/selectize.bootstrap3.css": {
+      "checksum": "ac38ad19469b8c594246e3f433a9ad53"
+    },
+    "libs/shiny/www/shared/selectize/js/selectize.min.js": {
+      "checksum": "5949ba84ac0fd20b5585ae06e2398b97"
+    },
+    "libs/shiny/www/shared/selectize/scss/plugins/drag_drop.scss": {
+      "checksum": "99d227216c3d1c376c8b5ea7465eec0e"
+    },
+    "libs/shiny/www/shared/selectize/scss/plugins/dropdown_header.scss": {
+      "checksum": "874a00b20f95f24065252c85f06d3b69"
+    },
+    "libs/shiny/www/shared/selectize/scss/plugins/optgroup_columns.scss": {
+      "checksum": "db7ccf951640e051970e7afd3d691791"
+    },
+    "libs/shiny/www/shared/selectize/scss/plugins/remove_button.scss": {
+      "checksum": "809a1b9d7abaa4f308854d209d528816"
+    },
+    "libs/shiny/www/shared/selectize/scss/selectize.bootstrap3.scss": {
+      "checksum": "34d554c49ff38c0f82e3be9359b1a86b"
+    },
+    "libs/shiny/www/shared/selectize/scss/selectize.bootstrap4.scss": {
+      "checksum": "cbc90daf8f652ef288f39bd9714c99cb"
+    },
+    "libs/shiny/www/shared/selectize/scss/selectize.bootstrap5.scss": {
+      "checksum": "918c3cf4c434ce9556b399d7661d2a81"
+    },
+    "libs/shiny/www/shared/selectize/scss/selectize.default.scss": {
+      "checksum": "4aff3c66e186e7b3118f11a076a20ab0"
+    },
+    "libs/shiny/www/shared/selectize/scss/selectize.scss": {
+      "checksum": "f8e9348f8a8b3b71d0b126fe14ee64ed"
+    },
+    "libs/shiny/www/shared/shiny_scss/bootstrap.scss": {
+      "checksum": "1d0e8348a23a2fbac69e264ef7ce6b5a"
+    },
+    "libs/shiny/www/shared/shiny_scss/shiny.scss": {
+      "checksum": "38fc4b129a4d628e3ea8a0c971d3df15"
+    },
+    "libs/shiny/www/shared/shiny-autoreload.js": {
+      "checksum": "f4872960aad32b00eaf32a7e3e4560fd"
+    },
+    "libs/shiny/www/shared/shiny-showcase.css": {
+      "checksum": "1c01b8619b0d556524d1b826bcef4625"
+    },
+    "libs/shiny/www/shared/shiny-showcase.js": {
+      "checksum": "56cf087a700f5f086163bb92411fe073"
+    },
+    "libs/shiny/www/shared/shiny-testmode.js": {
+      "checksum": "2141a6b9994dafcee4b2dc0c13502b16"
+    },
+    "libs/shiny/www/shared/shiny.js": {
+      "checksum": "228daa059f5bd79861510227777dae35"
+    },
+    "libs/shiny/www/shared/shiny.js.map": {
+      "checksum": "c434c290369deb5f26afb4b78671a4ea"
+    },
+    "libs/shiny/www/shared/shiny.min.css": {
+      "checksum": "b554bfef00a0f2005e1e32d1fb4d19e2"
+    },
+    "libs/shiny/www/shared/shiny.min.js": {
+      "checksum": "4f3bd15369931b7d7ff01e76e201d483"
+    },
+    "libs/shiny/www/shared/shiny.min.js.map": {
+      "checksum": "f109fc5340d47b5bcb667b67bfa3b357"
+    },
+    "libs/shiny/www/shared/showdown/compressed/showdown.js": {
+      "checksum": "d42bccda0accb4e937f79e5bd9540643"
+    },
+    "libs/shiny/www/shared/showdown/license.txt": {
+      "checksum": "ae18a8f49f1a446ca1772447b95a99d0"
+    },
+    "libs/shiny/www/shared/showdown/src/showdown.js": {
+      "checksum": "e192e62c348b4dc09fd3d9f32cd558c3"
+    },
+    "libs/shiny/www/shared/strftime/strftime-min.js": {
+      "checksum": "4feedff422885d51bf57601f8a987d70"
+    },
+    "man/run_app.Rd": {
+      "checksum": "db153f001c7c98594f4a6e64193fbf8a"
+    },
+    "NAMESPACE": {
+      "checksum": "5aa41ebd076bf06b187a48eb57b846a5"
+    },
+    "R/app_config.R": {
+      "checksum": "687b558a1e6b129a2fdec6e35fb7cb7a"
+    },
+    "R/app_server.R": {
+      "checksum": "0faf7724c528dab8b904407fba80c86f"
+    },
+    "R/app_ui.R": {
+      "checksum": "4cbfee21a9c0a650ea2aa73ab1c8552b"
+    },
+    "R/run_app.R": {
+      "checksum": "476011bbc4ffefa824e5bfb8386d849b"
+    }
+  },
+  "users": null
+}
